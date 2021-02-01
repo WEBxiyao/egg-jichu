@@ -13,4 +13,5 @@ module.exports = app => {
   router.post('/user/create', controller.user.create);
   router.post('/user/update/:id', controller.user.update);
   router.post('/user/destroy/:id', controller.user.destroy);
+  router.post('/upload', controller.file.upload);
 };
